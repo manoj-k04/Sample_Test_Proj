@@ -1,0 +1,16 @@
+{
+  "name": "sample-playwright-jest-project",
+  "version": "1.0.0",
+  "description": "Sample project to test setupBrowserStackAutomateTests tool with Node.js + Playwright + Jest",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": ["playwright", "jest", "browserstack", "testing"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "jest": "^29.7.0",
+    "playwright": "^1.40.0"
+  }
+}

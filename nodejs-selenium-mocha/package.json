@@ -1,0 +1,16 @@
+{
+  "name": "sample-selenium-mocha-project",
+  "version": "1.0.0",
+  "description": "Sample project to test setupBrowserStackAutomateTests tool with Node.js + Selenium + Mocha",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js --timeout 30000"
+  },
+  "keywords": ["selenium", "mocha", "browserstack", "testing"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.15.0",
+    "chai": "^4.3.10"
+  }
+}
